@@ -16,7 +16,7 @@ export const PageActions: React.FC<{ tweet: string }> = ({ tweet }) => {
         href={`https://twitter.com/intent/like?tweet_id=${tweet}`}
         target='_blank'
         rel='noopener noreferrer'
-        title='Like this post on Twitter'
+        title='Aimez le post sur X'
       >
         <IoHeartOutline />
       </a>
@@ -26,7 +26,7 @@ export const PageActions: React.FC<{ tweet: string }> = ({ tweet }) => {
         href={`https://twitter.com/intent/retweet?tweet_id=${tweet}`}
         target='_blank'
         rel='noopener noreferrer'
-        title='Retweet this post on Twitter'
+        title='Repostez sur X'
       >
         <AiOutlineRetweet />
       </a>
